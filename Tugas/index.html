@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www.L200170072.id</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container" id="navbar">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand navbar-link"><img src="assets/img/mysql.jpg" width="200px"></a>
+        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      </div>
+      <div class="collapse navbar-collapse" id="navcol-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li role="presentation"><a href="#home">HOME</a></li>
+          <li role="presentation"><a href="#gallery">GALLERY</a></li>
+          <li role="presentation"><a href="#about">ABOUT</a></li>
+          <li role="presentation"><a href="#"><i class="glyphicon glyphicon-search"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+  <!-- jumbotron -->
+  <div id="background">
+    <div class="jumbotron">
+      <p>SELAMAT DATANG....</p>
+      <h1>AVIFAH'S BLOG</h1>
+     
+    </div>
+  </div>
+  <!-- jumbotron -->
+
+  <!-- container atas -->
+  <div id="home">
+    <div class="isi">
+      <div class="container atas">
+        <h1>SISTEM MANAJEMEN BASIS DATA</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <h3>PENGERTIAN</h3>
+            <p class="text-justify"><strong>Sistem manajemen basis data</strong> (Data Base Management System / DBMS) adalah perangkat lunak sistem yang memungkinkan para pemakai membuat, memelihara, mengontrol, dan meng-akses basis data dengan cara praktis dan efisien. 
+			DBMS dapat digunakan untuk meng-akomodasikan berbagai macam pemakai yang memiliki kebutuhan akses yang berbeda-beda. 
+			DBMS pada umumnya menyediakan fasilitas atau fitur-fitur yang memungkinkan data dapat diakses dengan mudah, aman, dan cepat.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <h3>KELEBIHAN</h3>
+            <p class="text-justify"> 1. Mengurangi duplikasi data atau data redundancy
+                  <br>2. Menjaga konsistensi dan integritas data
+                  <br>3. Meningkatkan keamanan data
+                  <br>4. Meningkatkan effisiensi dan effektivitas penggunaan data
+                  <br>5. Meningkatkan produktivitas para pengguna data
+                  <br>6. Memudahkan pengguna dalam menggali informasi dari kumpulan data
+                  <br>7. Meningkatkan pemeliharaan data melalui independensi data
+                  <br>8. Meningkatkan pemakaian bersama dari data
+                  <br>9. Meningkatkan layanan backup dan recovery data
+                 <br>10. Mengurangi konflik antar pengguna data.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <h3>KELEMAHAN</h3>
+            <p class="text-justify">1. Memerlukan suatu skill tertentu untuk bisa melakukan administrasi dan manajemen database agar dapat diperoleh struktur 
+				      dan relasi data yang optimal
+                   <br>2. Memerlukan kapasitas penyimpanan baik eksternal (disk) maupun internal (memory) agar DBMS dapat bekerja cepat dan 
+				      efisien.
+                   <br>3. Harga DBMS yang handal biasanya sangat mahal
+                   <br>4. Kebutuhan akan sumber daya (resources) biasanya cukup tinggi
+                   <br>5. Apabila DBMS gagal menjalankan misinya maka tingkat kegagalan menjadi lebih tinggi karena banyak pengguna yang 
+					  bergantung pada sistem ini
+				   <br>6. Konversi dari sistem lama ke sistem DBMS terkadang sangat mahal, disamping biaya pengadaan perangkat keras dan 
+				      perangkat lunak, diperlukan pula biaya pelatihan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- container atas -->
+
+  <!-- container bawah -->
+  <div class="container bawah">
+    <h1>KOMPONEN</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><img class="img-circle" src="assets/img/ddl.jpg" width="200px">
+        <h3>DDL</h3>
+        <p class="text-center"><strong>DDL (Data Definition Language)</strong> merupakan perintah SQL yang berhubungan dengan pendefinisian suatu struktur database yang digunakan untuk membuat, mengubah dan menghapus struktur dan definisi metadata dari objek-objek database.</br>
+
+Beberapa perintah dasar yang termasuk DDL ini antara lain : </br>
+
+a. CREATE</br>
+Perintah ini digunakan untuk membuat, termasuk diantaranya membuat database baru, tabel baru, view   baru, dan kolom.</br>
+CREATE DATABASE nama_database;</br>
+</br>
+b. ALTER</br>
+Perintah ini digunakan untuk mengubah struktur tabel yang telah dibuat. Pekerjaannya mencakup mengganti nama tabel, menambah kolom, mengubah kolom, menghapus kolom, maupun memberikan atribut pada kolom.</br>
+- Menambahkan Kolom/Field<br>
+  ALTER TABLE table_name ADD column_name datatype;</br>
+- Menghapus Kolom/Field</br>
+ ALTER TABLE table_name DROP column_name datatype;</br>
+</br>
+c. RENAME</br>
+Perintah yang digunakan untuk merubah nama Objek</br>
+RENAME TABLE table_name TO new_table name</br>
+</br>
+d. DROP</br>
+Perintah ini digunakan untuk menghapus database dan tabel.</br>
+-Menghapus Table</br>
+DROP TABLE nama_tabel;</br>
+-Menghapus Database</br>
+DROP DATABASE nama_database;</br></p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><img class="img-circle" src="assets/img/dml.jpg" width="200px">
+        <h3>DML</h3>
+        <p class="text-center"><strong>DML (Data Manipulation Language)</strong> merupakan perintah SQL yang digunakan untuk proses pengolahan isi data di dalam table seperti memasukkan, merubah dan menghapus isi data - dan tidak terkait dengan perubahan struktur dan definisi tipe data dari objek database.</br>
+
+Perintah SQL yang termasuk dalam DML antara lain :
+</br>
+a. UPDATE</br>
+Perintah ini digunakan untuk memperbaharui data lama menjadi data terkini. Jika anda memiliki data yang salah atau kurang Up To Date dengan kondisi sekarang, maka dapat diubah isi datanya dengan menggunakan perintah UPDATE.</br>
+</br>
+b. INSERT</br>
+perintah ini digunakan untuk menyisipkan atau memasukkan data baru ke dalam tabel. Penggunaannya setelah database dan tabel selesai dibuat.</br>
+</br>
+c. SELECT</br>
+Perintah ini digunakan untuk mengambil data atau menampilkan data dari satu tabel atau beberapa tabel dalam relasi. Data yang diambil dapat kita tampilkan dalam layar prompt MySQL secara langsung maupun ditampilkan pada tampilan aplikasi.</br>
+</br>
+d. DELETE</br>
+Perintah ini digunakan untuk menghapus data dari tabel. Biasanya data yang dihapus adalah data yang tidak diperlukan lagi. Pada saat menghapus data, perintah yang telah dijalankan tidak dapat digagalkan, sehingga data yang telah hilang tidak dapat dikembalikan lagi.</p>
+      </div><div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><img class="img-circle" src="assets/img/dcl.jpg" width="200px">
+        <h3>DCL</h3>
+        <p class="text-center"><strong>DCL (Data Control Language)</strong>DCL merupakan perintah SQL yang berhubungan dengan manipulasi user dan hak akses (priviledges).</br>
+</br>
+Perintah SQL yang termasuk dalam DCL antara lain :</br>
+</br>
+a. GRANT</br>
+Perintah ini digunakan untuk memberikan hak / izin akses oleh administrator (pemilik utama) server kepada user (pengguna biasa). Hak akses tersebut berupa hak membuat (CREATE), mengambil (SELECT), menghapsu (DELETE), mengubah (UPDATE) dan hak khusus berkenaan dengan sistem databasenya.
+</br>
+b. REVOKE</br>
+perintah ini memiliki kegunaan terbalik dengan GRAND, yaitu untuk menghilangkan atau mencabut hak aksesyang telah diberikan kepada user oleh administrator.</p>
+      </div>
+    </div>
+  </div>
+  <!-- container bawah -->
+
+  <!-- gallery -->
+  <div id="gallery">
+    <div class="container">
+      <h1>Gallery</h1>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="satu"><img src="assets/img/dml.jpg" height="467px" width="550px"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="satu"><img class="img-responsive" src="assets/img/database.jpg" width="300px"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="satu"><img class="img-responsive" src="assets/img/DBMS.jpg" width="300px"></div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="dua"><img class="img-responsive" src="assets/img/basisdata1.jpg" width="600px"></div>
+      </div>
+    </div>
+  </div>
+  <!-- gallery -->
+
+  <!-- about -->
+  <div id="about">
+    <div class="container footer">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <h1> <img src="assets/img/me.jpg" width="180px"></h1>
+        <h2>About Us</h2>
+        <p><img src="assets/img/instagram.jpg" width="20px">avifahasna_</br>
+		<img src="assets/img/gmail.jpg" width="20px">avifahhasna77@gmail.com</p>
+      </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h2>Newsletter Subscription</h2>
+          <div class="input-group input-group-lg">
+            <input type="text" class="form-control" value="Your Email">
+            <div class="input-group-btn">
+              <button class="btn btn-primary" type="submit">Subscribe </button>
+            </div>
+          </div>
+         
+        </div>
+    </div>
+  </div>
+  <!-- about -->
+
+  <!-- kaki -->
+  <div id="kaki">
+    <div class="container">
+      <h5 class="text-center">UMS. © 2018</h5>
+    </div>
+  </div>
+  <!-- kaki -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
